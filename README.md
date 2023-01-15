@@ -7,3 +7,5 @@ A super resolution model is when you take an image with a low resolution (in my 
 If you want to create a super resolution model yourself, you will need to create a dataset first, which is just putting a ton of images in a folder. The training script will read these images at runtime and create appropriate input and output data to train on. I suggest using the Google open images dataset if you are looking for a model that generalises, or using the CreateDataset.py script if you want to create training images using your webcam.
 
 
+Below you can see how the images are altered during runtime for training.
+![alt text](IMG/trainingData.png)
